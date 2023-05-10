@@ -27,6 +27,8 @@ img {
     border: 3px solid red;
 }
 
+/* the top nav bar */
+
 .nav {
     width: 98%;
     margin: 0 auto;
@@ -52,11 +54,15 @@ img {
     text-decoration: none;
 }
 
+/* the center part which contain the video, video description and comments */
+
 .center {
     width: 70%;
     
     border: 5px solid yellow;
 }
+
+/* the video part */
 
 .video {
     width: 100%;
@@ -64,13 +70,13 @@ img {
 
 }
 
+/* the video description part  */
+
 .video-desc h3 {
-    margin: .5em .5em;
+    margin: .5em 0.25em;
 }
 
 .desc-nav {
-    width: 98%;
-    margin: 0 auto;
 
     border: 3px solid burlywood;
 }
@@ -86,7 +92,7 @@ img {
 .desc-nav-item {
     list-style: none;
 
-    border: 5px solid violet;
+    border: 2px solid violet;
 }
 
 .desc-nav-link {
@@ -99,18 +105,104 @@ img {
 }
 
 .sub-btn, .like-btn, .dislike-btn, .share-btn {
-    padding: .5em 1em;
-    border-radius: 40%;
+    padding: .75em 1em;
+    border-radius: 25%;
     border: none;
 }
 
+.sub-btn {
+    color: white;
+    background-color: black;
+}
+
 .like-btn {
-    border-radius: 40% 0 0 40%;
+    border-radius: 25% 0 0 25%;
 }
 
 .dislike-btn {
-    border-radius: 0 40% 40% 0;
+    border-radius: 0 25% 25% 0;
 }
+
+.video-desc-detail {
+    background-color: rgb(243, 243, 243);
+    height: 200px;
+    border-radius: 2.5%;
+    padding: .5em .5em;
+}
+
+/* the comments part  */
+
+.comments {
+
+}
+
+.com-nav {
+    margin: 1em 0;
+
+    border: 3px solid burlywood;
+}
+
+.com-nav-list {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: flex-start;
+
+    border: 3px solid black;
+}
+
+.com-nav-item {
+    list-style: none;
+
+    border: 2px solid violet;
+}
+
+.com-nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.myCom {
+    margin: 1em 0;
+}
+
+.myProf-img-container {
+    width: 10%;
+    align-items: flex-start;
+}
+
+.myProf-img {
+    border-radius: 50%;
+}
+
+.comment-form {
+    width: 90%;
+}
+
+#submit-comment {
+    
+}
+
+.othersCom {
+    margin: 1em 0;
+}
+
+.othersProf-img-container {
+    width: 10%;
+    align-items: flex-start;
+}
+
+.othersProf-img {
+    border-radius: 50%;
+}
+
+.othersCom-desc {
+    width: 90%;
+}
+
+
+
+/* the side bar section  */
 
 .side {
     width: 30%;
